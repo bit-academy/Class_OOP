@@ -20,10 +20,10 @@ public class ObjectClass3
 
     public static void main(String[] args)
     {
-        ObjectClass3 object1=new ObjectClass3("ù��°");
+        ObjectClass3 object1=new ObjectClass3("첫번째");
         ObjectClass3 object2=(ObjectClass3)object1.clone();
 
-        object2.myName="�ι�°";
+        object2.myName="두번째";
 
         System.out.println(object1==object2);
         System.out.println(object1);
