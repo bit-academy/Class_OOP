@@ -2,7 +2,7 @@ public class ObjectClass1
 {
     public static void main(String[] args)
     {
-        System.out.println("ÀÚ¹Ù".equals(args[0]));
-        System.out.println("ÀÚ¹Ù"==args[0]);
+        System.out.println("ìë°”".equals(args[0]));
+        System.out.println("ìë°”"==args[0]);
     }
 }
