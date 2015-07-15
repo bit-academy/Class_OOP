@@ -10,7 +10,7 @@ public class ObjectClass4
     public void finalize() throws Throwable
     {
         super.finalize();
-        System.out.println("°´Ã¼°¡ ¼ö°ÅµÊ : "+myID);
+        System.out.println("ê°ì²´ê°€ ìˆ˜ê±°ë¨ : "+myID);
         System.out.println(Thread.currentThread());
     }
 
