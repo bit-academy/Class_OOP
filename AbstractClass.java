@@ -4,7 +4,7 @@ public abstract class AbstractClass
 
     public void mainBoard()
     {
-        System.out.println("¸ŞÀÎº¸µå");
+        System.out.println("ë©”ì¸ë³´ë“œ");
     }
 
     public static void main(String[] args)
@@ -23,7 +23,7 @@ class Rambus extends AbstractClass
 {
     public void manageRam()
     {
-        System.out.println("·¥¹ö½º D·¥");
+        System.out.println("ë¨ë²„ìŠ¤ Dë¨");
     }
 }
 
@@ -31,6 +31,6 @@ class DDRRam extends AbstractClass
 {
     public void manageRam()
     {
-        System.out.println("DDR ·¥");
+        System.out.println("DDR ë¨");
     }
 }
