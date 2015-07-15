@@ -14,10 +14,10 @@ public class CallByValueTest {
 		m();
 		int i = 10;
 		m(i);
-		System.out.println(i); // 결과예상
+		System.out.println(i);
 
 		int[] arr = { 10, 20, 30 };
 		m(arr);
-		System.out.println(arr[0]); // 결과예상
+		System.out.println(arr[0]);
 	}
 }
