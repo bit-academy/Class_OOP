@@ -28,7 +28,7 @@ public class InnerClass
         InnerClass inner = new InnerClass(5);
         InnerClass.IamInner iamInner = inner.new IamInner();
         System.out.print(iamInner.getClass());
-        System.out.print("ÀÇ ÀÎ½ºÅÏ½º ¸Ş¼Òµå getInt() : ");
+        System.out.print("ì˜ ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œ getInt() : ");
         System.out.println(iamInner.getInt());
 
         iamInner.printOuter();
