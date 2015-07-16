@@ -1,3 +1,4 @@
+// Java 2 J2SE 1.4 에서 실행되었던 코드이나, Java 8 에서는 동작하지 않음.
 public interface InnerClassInInterface
 {
     public static final int a=1;
